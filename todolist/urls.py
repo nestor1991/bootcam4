@@ -20,5 +20,25 @@ from pendientes import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'), #Creamos la ruta raiz '' y la enlazamos con nuestra vista index del archivo views.py
+    path('', views.index, name='index'), 
+    path("tarea",views.tarea),
 ]
+    #Creamos la ruta raiz '' y la enlazamos con nuestra vista index del archivo views.py
+##33 crear las vias/funcion tarea y conectar con la direccion 
+#tarea en el archivo urls.py
+#despues ir al navegador y abrir htpp:..../ tareas
+
+
+
+
+
+
+
+
+
+#33 crer una respuestas que retorne un texto cuadrado 
+#en el navegador entrorne un texto cuadrado
+#pista crear la funcion/vista en views-py y conectar en 
+#urls.py usando path(.....)
+
+
